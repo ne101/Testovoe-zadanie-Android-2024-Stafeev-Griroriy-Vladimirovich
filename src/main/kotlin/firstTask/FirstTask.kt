@@ -1,3 +1,5 @@
+package firstTask
+
 fun findDuplicate(numbers: IntArray): Int {
     var duplicate = -1
     val seen = HashSet<Int>()
